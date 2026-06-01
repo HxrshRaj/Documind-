@@ -1,0 +1,30 @@
+Regression Best Practices
+
+Regression is used when the target variable is continuous.
+
+Recommended Models:
+- Linear Regression
+- Random Forest Regressor
+- XGBoost Regressor
+
+Evaluation Metrics:
+- R2 Score
+- RMSE
+- MAE
+
+Model Selection Guidance:
+
+Use R2 Score as the primary ranking metric.
+
+Lower RMSE indicates lower prediction error.
+
+Random Forest Regressors perform well when relationships are non-linear.
+
+Linear Regression provides strong interpretability and works well for approximately linear relationships.
+
+Feature Engineering Recommendations:
+
+- Handle missing values.
+- Normalize features when necessary.
+- Remove outliers.
+- Check feature correlations.

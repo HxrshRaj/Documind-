@@ -1,0 +1,28 @@
+Classification Best Practices
+
+Classification is used when the target variable contains discrete classes.
+
+Recommended Models:
+- Logistic Regression
+- Random Forest Classifier
+- XGBoost Classifier
+
+Evaluation Metrics:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+
+Model Selection Guidance:
+
+Use F1 Score as the primary ranking metric when balancing precision and recall is important.
+
+Random Forest models often perform better when datasets contain non-linear relationships.
+
+Logistic Regression provides stronger interpretability and works well when relationships are approximately linear.
+
+Feature Engineering Recommendations:
+
+- Handle missing values.
+- Encode categorical variables.
+- Remove highly redundant features.
