@@ -1,5 +1,13 @@
 #  DocuMind – Autonomous Agentic AI Orchestrator for Data Science
 
+## 🌐 Live Demo
+
+https://sj2ihzd75sacteozr264zz.streamlit.app
+
+## 📂 GitHub Repository
+
+https://github.com/HxrshRaj/Documind-
+
 ##  Overview
 
 DocuMind is an Agentic AI-powered Data Science Assistant that automates the end-to-end machine learning workflow using a multi-agent architecture.
